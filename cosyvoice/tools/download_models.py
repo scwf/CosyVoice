@@ -4,10 +4,10 @@ from modelscope import snapshot_download
 def main():
     models_to_download = [
         "iic/CosyVoice2-0.5B",
-        "iic/CosyVoice-300M",
-        "iic/CosyVoice-300M-SFT",
-        "iic/CosyVoice-300M-Instruct",
-        "iic/CosyVoice-ttsfrd",
+        # "iic/CosyVoice-300M",
+        # "iic/CosyVoice-300M-SFT",
+        # "iic/CosyVoice-300M-Instruct",
+        # "iic/CosyVoice-ttsfrd",
     ]
 
     print("Starting download of specified models to ModelScope default cache directory...")
